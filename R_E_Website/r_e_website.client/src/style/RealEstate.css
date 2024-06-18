@@ -1,0 +1,259 @@
+.promo-item {
+    text-decoration: none;
+    transition: all .2s ease-out 0s;
+    color: black;
+    padding: 1.5%;
+    padding-bottom: 0;
+    margin-left:6%;
+    margin-right:5%;
+    cursor:pointer;
+}
+
+.promo-item:hover{
+    transform:scale(1.1);
+    background:white;
+}
+
+.promo-item:hover .info{
+    background:white;
+}
+
+.box-img {
+    background-image: url("https://db.profirealt.com.ua/data/i/Flat/71214/scale_500x500_80_a9ca28188285b16d04ad639d3678dac9image_0.jpg");
+    padding-top: 92.1875%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .3s ease;
+    position:relative;
+    overflow: hidden;
+}
+
+.box-img:hover{
+
+}
+
+.info {
+    font-size: .9em;
+    color: #222;
+    padding: 13.6% 0 13% 13.6%;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.info:hover{
+    background: white;
+}
+
+.info i{
+    margin-right: 15px;
+    font-size:1.8em !important;
+}
+
+.info1{
+
+}
+
+.info2{
+
+}
+
+.sq{
+
+}
+
+.fl{
+    margin-left:15px;
+}
+
+.info3{
+
+}
+
+.label {
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    height: 22px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    display: block;
+    z-index: 2;
+    white-space: pre;
+    line-height: 1.23em;
+}
+
+.label span{
+    color: #fff;
+    font-size:14px;
+    text-align:center;
+    padding: 3px 30px;
+}
+
+.label-exclusive {
+    background-color: #3d2867;
+}
+
+.sep {
+    margin: 0 3.5% 0 2.4%;
+}
+
+.info1, .info2, .info3, .sq, .fl {
+    display: flex;
+    align-items: center;
+}
+
+.block-container {
+    padding:50px;
+    gap:30px;
+}
+
+.block-container a{
+   display:flex;
+   gap:30px;
+}
+
+.block-container .box-img {
+    width: 33%;
+    float: left;
+    padding-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:auto;
+}
+
+.ul-block{
+    width:90%;
+    /*flex-grow:3;*/
+}
+
+.ul-block .info1{
+    margin-left:10px;
+    gap:10px;
+    padding-bottom:10px;
+    font-size:18px;
+}
+
+.action-block{
+    /*flex-grow:2;*/
+    width:30%;
+    float:right;
+}
+
+.uls-container{
+    display:flex;
+}
+
+.uls-container li {
+    gap: 10px;
+}
+
+.uls-container li:nth-child(even) {
+    background: #f1f1f0 !important;
+}
+
+.uls-container li:nth-child(odd) {
+    background: white !important;
+}
+
+.prghps-container p{
+    color:black;
+}
+
+.item-on-map h2 {
+    color: black !important;
+}
+
+.action-block .info3 {
+    font-size: 18px;
+}
+
+.action-block .info3 i{
+    font-size:30px;
+    margin-right:10px;
+}
+
+.action-block button {
+    background: #a52722;
+    color:white;
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight:600;
+    padding:10px 25px;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+.action-block button i{
+    font-size:20px;
+    margin-right:10px;
+}
+
+.rl-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 1.5%;
+    background: #f1f1f0;
+    margin-bottom: 100px;
+    gap: 20px;
+    text-align: center;
+    /*padding-top: 50px;*/
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-left:1.5%;
+}
+
+.more {
+    text-align:center;
+}
+
+.more .search-b-s {
+    margin-top:0;
+    padding:15px;
+}
+
+.r-c-item-2 > div > div {
+    opacity: 0;
+    animation: appearing 1s forwards;
+}
+
+@keyframes appearing {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.empty{
+    padding:50px;
+    
+}
+
+.empty > p{
+    font-size:22px;
+    font-weight:600;
+}
+
+.empty p{
+    color:black;
+}
+
+.empty ul{
+    margin-top:30px;
+    margin-left:20px;
+}
+
+.empty li{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+.empty i, .empty ul p{
+    font-size:20px;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.buy-estate-container h2{
+    
+}
+
+.buy-estate-grid{
+    padding: 0 50px 0 50px;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);  
+}
+
+.right{
+    margin-left:50px !important;
+    margin-bottom:80px !important;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+.left h3{
+    margin-top:80px !important;
+}
+
+.buy-estate-grid-item img{
+    width:100%;
+    height:auto;
+}
+
+.buy-estate-grid-item {
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0px;
+}
+
+.buy-estate-grid-item p{
+    margin: 25px 0 50px 0;
+    font-size:1.1em;
+}
+
+.buy-estate-grid-item h3{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.buy-estate-grid-item h2{
+    margin-top:50px;
+}
+
+.inner-title-ul{
+    font-weight:600;
+    font-size:20px !important;
+    margin-top:20px !important;
+    margin-bottom:15px;
+}
+
+.ul-buy-for{
+    margin-top:10px;
+    margin-bottom:50px;
+    padding-left:15px;
+}
+
+.ul-buy-for p{
+    margin: 0 !important;
+}
+
+.ul-buy-for li{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.ul-buy-for i{
+    display:inline-block;
+    font-size:10px;
+    margin-right:15px;
+    margin-top:5px;
+}
+
+.grid-4-container{
+    padding:0 50px 0 50px;
+    margin-top:50px;
+}
+
+.grid-4{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:30px;
+}
+
+.service-title{
+    color: #a52822 !important;
+    font-size:1.15em;
+}
+
+.grid-4 p:nth-child(2){
+    font-size:1.1em;
+}
+
+.grid-4 svg{
+    width: 100px;
+    height:50px;
+    fill: #a52822 !important;
+}
+
+.grid-4 > div > div {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    color: #a52822;
+}
+
+.grid-4 > div > div > p{
+    font-size:18px;
+    margin-left:20px;
+}
+
+.grid-4 > div > p{
+    font-size:17px;
+    text-align:left;
+}
+
+.buy-estate-add-info{
+    text-align:center;
+}
+
+.buy-estate-add-info h2{
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.buy-estate-add-info p{
+    font-size:1.1em;
+}
+
+.buy-estate-container .order-service-container {
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    padding: 40px 35px;
+    border-radius: 10px;
+}
+

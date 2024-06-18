@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    width:7px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #fcfcfc
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f1f1f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a52822;
+}
+
+header
+{
+    
+    margin-right:50px;
+    margin-left:50px;
+    top:0;
+    z-index:1000;
+    
+    display:flex;
+    align-items:center;
+    padding:2% 0;
+    background:white;
+}
+
+.logo
+{
+    cursor:pointer;
+}
+
+.logo > img
+{
+   
+}
+
+.navlist
+{
+    display:flex;
+    margin-left:20px;
+    z-index:100;
+}
+
+.navlist > li{
+    /*display:flex;
+    align-items:center;*/
+    
+    
+    padding-right:20px;
+}
+
+.navlist > li:not(:first-child){
+    margin-left:10px;
+}
+
+.navlist div{
+    background: white;
+    padding: 15px 0px;
+    display:flex;
+    align-items:center;
+}
+
+.navlist a
+{
+    color:black;
+    margin-left:20px;
+    font-size:15px;
+    font-weight:600;
+    border-bottom:2px solid transparent;
+    transition:all .55s ease;
+}
+
+.navlist a:hover
+{
+    border-bottom:2px solid #a52822;
+}
+
+.navlist i{
+    font-size:20px;  
+    margin-left:10px;
+    transition: all .3s ease;
+}
+
+.rotated{
+    transform:rotate(180deg);
+}
+
+.sub-menu {
+    display: none;
+    background: #f1f1f0;
+    border-radius: 10px;
+    white-space: pre;
+    position: absolute;
+    padding: 15px 0px;
+    padding-right:20px;
+   
+}
+
+.sub-menu li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.sub-menu a{
+    border-bottom: 0 !important;
+}
+
+.sub-menu a:hover{
+    color: #a52822;
+    cursor:pointer;
+    border-bottom: 0 !important;
+}
+
+.social-media {
+    margin-left: 2%;
+    margin-top:-10px;
+}
+
+.social-media i{
+    margin-left:10px;
+    font-size:26px;
+    transition: all .3s ease;
+    cursor:pointer;
+}
+
+.social-media i:hover{
+    color: #a52822;
+}
+
+.phone {
+    margin-left: 1.5%;
+    font-size: 14px;
+    color: black !important;
+    margin-top: -10px;
+}
+
+.langs {
+    margin-left: 1%;
+    display: flex;
+    margin-top: -10px;
+}
+
+.langs a{
+    cursor:pointer;
+    margin-left:15px;
+    color:orange;
+    font-size:14px;
+}
+
+.request {
+    margin-left: 2%;
+    border-radius: 10px;
+    background: black;
+    padding: 12px 17px;
+    color: white;
+    font-size: 12px;
+    transition: all .55s ease;
+    margin-top: -10px;
+}
+
+.request a{
+    color: white;
+}
+
+.request:hover{
+    background:#c71010;
+}

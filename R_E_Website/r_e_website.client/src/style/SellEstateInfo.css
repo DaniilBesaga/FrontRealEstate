@@ -1,0 +1,180 @@
+.sell-estate-container h2::before {
+    position: absolute;
+    content: '';
+    background-color: #a52822;
+    top: -1rem;
+    left: -1rem;
+    right: -1rem;
+    bottom: -1rem;
+    z-index: -1;
+}
+
+.sell-estate-container h2 {
+    position: relative;
+    color: #fff;
+    max-width: max-content;
+}
+
+.buy-estate-grid p {
+    margin: 25px 0 25px 0;
+    color:black;
+}
+
+.grid-3-container{
+    padding:50px;
+}
+
+.sell-estate-container .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.grid-3 p{
+    font-size:18px;
+    margin-top:30px;
+    color:black;
+}
+
+.grid-3 b{
+    color:#a52822;
+    margin-bottom:10px;
+    display:block;
+}
+
+.grid-odd-even-container {
+    padding: 50px;   
+}
+
+.grid-odd-even {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.grid-odd-even div{
+    padding:15px 15px 50px 15px;
+    font-size:18px;
+}
+
+.grid-odd-even div:nth-of-type(odd){
+    background:#a52822;
+    color: #fff;
+    border:1px solid transparent;
+}
+
+.grid-odd-even div:nth-of-type(even){
+    background:#fff;
+    border: 1px solid #a52822;
+}
+
+.grid-odd-even div:nth-of-type(even) p{
+    color: black;
+}
+
+.not-style-h2{
+    position: initial;
+    color: black !important;
+    max-width: initial !important;
+}
+
+.not-style-h2::before{
+    content: none !important;
+    background-color: initial !important;
+    top: initial !important;
+    left: initial !important;
+    right: initial !important;
+    bottom: initial !important;
+    z-index: initial !important;
+    position: initial !important;
+}
+
+.grid-2-container {
+    padding: 50px;   
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.grid-2 > div{
+    border:1px solid black;
+    padding:30px;
+}
+
+.ul-buy-for {
+    list-style-type: disc !important;
+}
+
+.ul-buy-for li{
+    display:flex;
+}
+
+.ul-buy-for p{
+    font-size: 1.1em !important;
+    color:black;
+}
+
+.ul-buy-for i{
+    width:6px;
+    height:6px;
+    font-size:7px !important;
+    margin-right:15px;
+    margin-top:7px !important;
+}
+
+.grid-2 ul:nth-child(1), .grid-2 > div:nth-child(1) p, .grid-2 > div:nth-child(1) i,
+.grid-2 ul:nth-child(4), .grid-2 > div:nth-child(4) p, .grid-2 > div:nth-child(4) i {
+    color: white;
+}
+
+.grid-2 > div:nth-child(1), .grid-2 > div:nth-child(4) {
+    background: #a52822;
+}
+
+.grid-2 > div:nth-child(2) i, .grid-2 > div:nth-child(3) i {
+    color: #a52822;
+}
+
+.grid-2 > div:nth-child(2) .inner-title-ul, .grid-2 > div:nth-child(3) .inner-title-ul {
+    color: #a52822 !important;
+}
+
+.grid-2 > div:nth-child(2), .grid-2 > div:nth-child(3) {
+    border: 1px solid #a52822;
+}
+
+.grid-4-container h2{
+    text-align:center !important;
+    margin-bottom:80px !important;
+}
+
+.sell-estate-container .grid-4 {
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.grid-4 p{
+    color:black;
+}
+
+.sell-estate-order-container {
+    border-radius: 10px;
+    box-shadow: 0 0 30px #f1f1f0;
+    padding:50px;
+    margin-right:15%;
+    margin-left:15%;
+    margin-top:50px;
+}
+
+.sell-estate-order-container h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.sell-estate-order-container button{
+    height:60px !important;
+}

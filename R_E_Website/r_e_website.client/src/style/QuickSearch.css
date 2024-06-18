@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.districts-list {
+    margin-top: -427px;
+    display: block;
+    background: #f1f1f0;
+    padding: 50px 0px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #d5d5d5;
+}
+
+.districts-list span{
+    display:block;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.districts-list span:not(:last-child){
+    margin-bottom:10px;
+}
+
+.qs-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #f1f1f0;
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 100;
+    position: absolute;
+    margin-top: -80px;
+}
+
+.qs-container form{
+    display:flex;
+}
+
+.qs-container > div{
+    padding-left:10px;
+    padding-right:10px;
+    border-right: 1px solid black;
+}
+
+.search-item-header{
+    display:flex;
+    padding-bottom:20px;
+    align-items:center;
+}
+
+.search-item-header svg{
+    width:26px;
+    height:26px;
+}
+
+.search-item-header p{
+    font-size:20px;
+    margin-left:10px;
+    color: black;
+}
+
+.search-item-body, .svg-container div {
+    background: white;
+    font-size: 18px;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.search-item-body {
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+}
+
+.search-item-body span{
+    margin-right:auto;
+    padding: 10px 300px 10px 21px;
+}
+
+.search-item-body svg{
+    display:inline-block;
+    margin-left:20px;
+}
+
+.search-item-body i{
+    margin-right:10px;
+}
+
+.search-item-body input{
+    width:150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #d5d5d5;
+    
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.rooms-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 0;
+    background: #f1f1f0;
+    gap:1px;
+    padding:0 40px 0 0;
+}
+
+.rooms-container div {
+    border: 2px solid #d5d5d5;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background:white;
+    font-size:19px;
+    text-align:center;
+}
+
+.search-item-body i {
+    font-size: 20px;
+}
+
+.pricing-inputs {
+    background: #f1f1f0;
+    border: 0;
+    gap: 10px;
+    border-left: 2px solid black;
+    padding-left: 30px;
+    border-radius:0;
+}
+
+.currency-icon {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border-radius: 11px;
+    border: 1px solid #d5d5d5;
+    vertical-align: middle;
+    transition: all .2s ease;
+    position: relative;
+    margin-right: 2px;
+}
+
+.currency-icon::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #a52722;
+    opacity: 1;
+    transition: all .2s ease-out 0s;
+}
+
+
+.search-b {
+    text-transform: uppercase;
+    color: white;
+    transition: all .7s ease;
+    background: #a52722;
+    width: 200px;
+    height: 50px;
+    margin-left:30px;
+}
